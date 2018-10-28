@@ -1,0 +1,307 @@
+@media (max-width: 1200px){
+  .header .text img{margin-top:60px;}
+  .header .text h2{
+    font-size: 26px;
+    margin:15px 0
+  }
+  .icons i{
+    font-size:24px;
+    padding-right: 5px;
+  }
+  .features img{
+    margin-top: 10px;
+    margin-left:0
+  }
+  .features .text{
+    width:46%;
+    margin:80px 20px 0 ;
+  }
+  .features ul{
+    margin-top: 60px;
+    width:70px;
+  }
+  .features ul>li{
+    font-size: 12px;
+  }
+  .feat img{
+    margin:60px auto 0;
+  }
+  .feat .text{
+    margin:0 20px 20px;
+    padding-bottom:60px;
+  }
+  .feat .text p{
+    font-size:12px;
+    margin-top:10px;
+    margin-bottom: 30px;
+    width:80%;
+  }
+  .feat .title i{
+    font-size: 14px;
+    padding: 5px;
+    margin-right:10px;
+  }
+  .feat .title p{
+    margin-top: 5px;
+  }
+  .pricing .table{
+    margin: 30px 10px 30px 0;
+    width:30% 
+  }
+  .pricing .table h4, .pricing .table h2{
+     padding: 15px 0;
+     font-size: 18px
+  }
+  .pricing .table h2{margin-bottom: 0;}
+  .pricing .table h2>span{
+    font-size: 26px; 
+  }
+  .pricing .table p{
+  font-size: 10px;
+  }
+  .pricing .table p+span{
+    margin-bottom:-30px;
+    font-size: 12px;
+  }
+  .pricing .table-list li{
+    font-size: 10px;
+    padding: 12px 0;
+  }
+}
+@media (max-width: 992px){
+  .header .text img{margin-top:60px;}
+  .header .text h2{
+    font-size: 26px;
+    margin:15px 0
+  }
+  .icons i{
+    font-size:18px;
+    padding-right: 5px;
+  }
+  .features img{
+    margin-top: 10px;
+    margin-left:40px
+  }
+  .features .text{
+    width:100%;
+    margin:80px 20px 0 ;
+    float:none;
+  }
+  .features ul{
+    margin-top: 60px;
+    width:70px;
+  }
+  .features ul>li{
+    font-size: 12px;
+  }
+  .feat img{
+    margin:60px auto 0;
+  }
+  .feat .text{
+    margin:0 20px 20px;
+    padding-bottom:60px;
+  }
+  .feat .text p{
+    font-size:12px;
+    margin-top:10px;
+    margin-bottom: 30px;
+    width:80%;
+  }
+  .feat .title i{
+    font-size: 14px;
+    padding: 5px;
+    margin-right:10px;
+  }
+  .feat .title p{
+    margin-top: 5px;
+  }
+  .pricing .table{
+    margin: 30px 20px 30px 0;
+    width:30% 
+  }
+  .pricing .table h4, .pricing .table h2{
+     padding: 15px 0;
+     font-size: 18px
+  }
+  .pricing .table h2{margin-bottom: 0;}
+  .pricing .table h2>span{
+    font-size: 26px; 
+  }
+  .pricing .table p{
+  font-size: 10px;
+  }
+  .pricing .table p+span{
+    margin-bottom:-30px;
+    font-size: 12px;
+  }
+  .pricing .table-list li{
+    font-size: 10px;
+    padding: 12px 0;
+  }
+}
+@media (max-width: 768px){
+  .navbar img{
+    width: 60px;
+    margin-bottom:10px; 
+  }
+  .navbar ul>li{
+    font-size:14px;
+    padding:5px 5px 5px 0
+}
+.header .container{width:90%}
+.header .text{width:50%;margin-right: 0}
+.header .text img{margin-top:40px;}
+.header .text h2{
+  font-size: 22px;
+  margin:15px 0
+}
+.header .text p{padding-left:0}
+.header .log{width:40%; margin-left: 0}
+.header .log h3{font-size: 18px;}
+.header .log input{width:90%;}
+.header .log a{margin-top:20px;}
+.social{
+  width:100%;
+  display: block;
+  text-align: center
+}
+.social span{margin-bottom: 5px;}
+.icons{
+  text-align: center;
+  width:100%;
+  float:none;
+}
+.icons i{
+  margin-top: 5px;
+  font-size:20px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  padding:5px 10px;
+}
+.features img{
+  margin-top: 10px;
+  margin-left:40px
+}
+.features .text{
+  width:100%;
+  margin:80px 20px 0 ;
+  float:none;
+}
+.features ul{
+  margin-top: 60px;
+  width:70px;
+}
+.features ul>li{
+  font-size: 12px;
+}
+.feat img{
+  margin:60px auto 0;
+  max-width:100%;
+  float: none;
+}
+.feat .text{
+  margin:0 20px 20px;
+  padding-bottom:60px;
+  width:100%;
+  float: none;
+}
+.feat .text p{
+  font-size:12px;
+  margin-top:10px;
+  margin-bottom: 30px;
+  width:80%;
+}
+.feat .title i{
+  font-size: 14px;
+  padding: 5px;
+  margin-right:10px;
+}
+.feat .title p{
+  margin-top: 5px;
+}
+.featn2 img{
+  margin:10px auto ;
+  max-width:100%;
+  float: none;
+}
+.featn2 .text{
+  margin-top: 40px;
+  padding-bottom:20px;
+  width:100%;
+  float: none;
+}
+.featn2 .text h3{
+  margin-bottom:20px;
+}
+.featn2 .text p{
+  margin-bottom: 10px;
+  width:100%;
+}
+.process h2, .pricing h2, .contact h2{margin-top:50px }
+.process p, .pricing p, .contact p{
+  margin-top:10px;
+  margin-bottom: 20px;
+}
+.process ul>li{
+  margin-top: 20px;
+  margin-right: 8px;
+} 
+.process ul>li i{
+  font-size: 24px;
+  padding: 15px;
+}
+.pricing .table{
+  margin: 30px 10px 30px 0;
+  width:30% 
+}
+.pricing .table h4, .pricing .table h2{
+   padding: 15px 0;
+   font-size: 18px
+}
+.pricing .table h2{margin-bottom: 0;}
+.pricing .table h2>span{
+  font-size: 26px; 
+}
+.pricing .table p{
+font-size: 10px;
+}
+.pricing .table p+span{
+  margin-bottom:-30px;
+  font-size: 12px;
+}
+.pricing .table-list li{
+  font-size: 10px;
+  padding: 12px 0;
+}
+.footer i{
+  font-size: 24px;
+  padding: 10px 10px 0
+}
+}
+@media (max-width: 576px){
+  .navbar img{
+    width: 40px;
+  }
+  .navbar ul>li{
+    font-size:10px;
+    padding:5px 5px 5px 0
+}
+.features ul>li{
+  font-size: 8px;
+}
+.process ul>li{
+  margin-right: 7px;
+} 
+.pricing .table{
+  display: block;
+  margin: 10px auto;
+  width:80% 
+}
+.pricing .table:last-of-type{
+  margin-right:auto 
+}
+.footer i{
+  font-size: 16px;
+  padding: 10px 10px 0
+}
+}

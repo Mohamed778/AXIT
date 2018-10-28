@@ -1,0 +1,455 @@
+*{
+  -webkit-box-sizing:border-box;
+     -moz-box-sizing:border-box;
+       -o-box-sizing:border-box;
+          box-sizing:border-box;
+}
+/*start framework */
+body{
+  font-family: georgia , arial;
+}
+.container{
+  width:80%;
+  margin: auto;
+}
+.list-unstyle{list-style: none;}
+.hr{
+  display: block;
+  position: relative;
+  width: 65px;
+  height: 1px;
+  background: #fff;
+}
+/* End Framework*/
+/*Start navbar*/
+.navbar{
+background: #000;
+}
+.navbar img{
+  margin: 20px 0;
+  width: 80px;
+}
+.navbar ul{
+  display:inline-block;
+  color:#b0b0b0;
+  float: right;
+}
+.navbar ul>li{
+  display:inline-block;
+  font-family:openSans semibold;
+  padding:10px 15px
+}
+/*End navbar*/
+/*Start header*/
+.header{
+  position: relative;
+    background: url(../Images/header1.jpg)no-repeat center center;
+    background-size: cover;
+}
+.overlay{
+  position: absolute;
+  background:rgba(2, 2, 2, .3);
+  width:100%;
+}
+.header .text{
+  width:50%;
+  display: inline-block;
+}
+.header .text img{
+  position: relative;
+  margin-top:80px; 
+}
+.header .text h2{
+  position: relative;
+  color:#FFF;
+  font-family: 'Raleway';
+  font-size: 34px;
+  font-weight: 100;
+  word-spacing:2px;
+  line-height:1.4;
+  margin:30px 0
+}
+.header .text p{
+  color:#c9c7c5;
+  font-family: 'Raleway light';
+  font-weight:100;
+  word-spacing:2px;
+  line-height:1.6;
+  max-width: 450px;
+  margin-top: 20px;
+  margin-left: -10px
+}
+.header .text a{
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  border:1px solid #fff;
+  color:#fff;
+  font-size: 14px;
+  font-weight:300;
+  padding:8px 25px;
+  margin-top: 30px;
+}
+.header .log{
+  position: relative;
+  background: #fff;
+  width:35%;
+  float:right;
+  margin-top:140px;
+  overflow: hidden;
+  border-radius:5px;
+}
+.header .log h3{
+  text-align: center;
+  background: #f5f5f5;
+  color:#333;
+  margin: 0;
+  padding:15px 
+}
+.header .log h3>span{
+  color:#ff8b38
+}
+.header .log input{
+  display:block;
+  width:80%;
+  margin:10px auto;
+  padding: 30px 10px 5px 5px;
+  border:none;
+  border-bottom:1px solid #ccc;
+  text-indent: 4px;
+}
+.header .log input::placeholder{
+  color:#CCC
+}
+.header .log a{
+  text-decoration:none;
+  display:block;
+  width:100%;
+  text-align: center;
+  color:#FFF;
+  background: #ff8b38;
+  margin-top:40px;
+  padding: 20px 0;
+}
+/*End header*/
+/*start social*/
+.social{
+  position: relative;
+  width:30%;
+  display: inline-block;
+}
+.social h4{margin-bottom: 5px;}
+.social span{
+  font-size:12px;
+  display:inline-block;
+  line-height:1.4;
+  color:#b0b0b0;
+  margin-bottom:20px
+}
+.icons{
+  position: relative;
+  width:60%;
+  float:right;
+}
+.icons i{
+  margin-top: 30px;
+  font-size:36px;
+  opacity: .4;
+  padding:10px 30px;
+  cursor: pointer;
+  transition:all .5s ease-in-out 
+}
+.icons i:hover{opacity:1;}
+/*End social*/
+/*Start features*/
+.features{
+  background: #f5f5f5;
+  overflow: hidden;
+  clear: both;
+}
+.features img{
+  position: relative;
+  margin-top: 120px;
+  margin-left:40px
+}
+.features .text{
+  position: relative;
+  width:46%;
+  margin: 100px 0 40px 60px;
+  float:left;
+}
+.features ul{
+  margin-top: 100px;
+  width:80px;
+  float: left;
+  padding-left: 0
+}
+.features ul>li{
+  position: relative;
+  background: #333;
+  color: #FFF;
+  font-size: 10px;
+  margin:0 auto 1px;
+  padding: 38px 25px;
+}
+.features ul >li.active{background: #ff8b38}
+.features ul >li span:first-child{
+  position: absolute;
+  top: 0;
+  left:0;
+  width:100%;
+  height:0;
+  background: #ff8b38;
+}
+.features ul >li span:last-child{
+  z-index: 4;
+  position: absolute;
+}
+.features .text h3{
+  margin-left: 60px;
+}
+.features .text p{
+  margin-bottom: 40px;
+  margin-left: 60px;
+  color:#b0b0b0;
+  font-size:12px;
+}
+.features .text a {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  background: #ff8b38;
+  border:1px solid #ff8b38;
+  color:#fff;
+  font-size: 14px;
+  font-weight:300;
+  padding:8px 20px;
+  border-radius: 2px;
+  margin-left:60px;
+  margin-bottom: 60px;
+}
+.feat{
+  position: relative;
+  overflow: hidden;
+  display: block;
+}
+.feat img{
+  margin:80px 0 0 -40px;
+  max-width:45%;
+  float: left;
+}
+.feat .text{
+  position: relative;
+  margin-top: 50px;
+  margin-left:120px;
+  padding-bottom:60px;
+  width:45%;
+  float: left;
+}
+.feat .text h3{
+  margin-bottom:20px;
+}
+.feat .text .hr{
+  background:#ff8b38
+}
+.feat .text p{
+  color:#b0b0b0;
+  font-size:12px;
+  margin-top:20px;
+  margin-bottom: 60px;
+  width:75%;
+  line-height:1.4
+}
+.feat .title i{
+  font-size: 14px;
+  padding: 5px;
+  margin-right:10px;
+  color:#ff8b38;
+  border:1px solid #ff8b38;
+  border-radius:50%
+}
+.feat .title p{
+  color: #b0b0b0;
+  font-size: 12px;
+  margin-top: 5px;
+  margin-left: 42px;
+  margin-bottom: 20px;
+  line-height:1.4
+}
+.featn2, .pricing{
+  background: #f5f5f5;
+  overflow: hidden;
+  clear: both;
+}
+.featn2 img{
+  margin:80px 0 60px 60px ;
+  max-width:45%;
+  float: left;
+}
+.featn2 .text{
+  position: relative;
+  margin-top: 100px;
+  padding-bottom:60px;
+  width:45%;
+  float: left;
+}
+.featn2 .text h3{
+  margin-bottom:20px;
+}
+.featn2 .text .hr{
+  background:#ff8b38
+}
+.featn2 .text p{
+  color:#b0b0b0;
+  font-size:12px;
+  margin-top:20px;
+  margin-bottom: 30px;
+  width:75%;
+  line-height:1.4
+}
+.process h2, .pricing h2, .contact h2{
+  font-family: 'raleway';
+  letter-spacing: -2px;
+  font-size: 32px;
+  margin-top: 100px;
+  font-weight:200;
+  text-align: center
+}
+.process .hr, .pricing .hr, .contact .hr{
+  background:#ff8b38;
+  margin: 0 auto;
+}
+.process p, .pricing p, .contact p{
+  color:#b0b0b0;
+  font-size:12px;
+  margin-top:20px;
+  margin-bottom: 30px;
+  text-align: center;
+  line-height:1.4
+}
+.process ul>li{
+  display:inline-block;
+  text-align: center;
+  margin-top: 30px;
+  margin-right: 20px;
+  width:30%
+} 
+.process ul>li:last-of-type{
+margin-right: 0;
+}
+.process ul>li i{
+  font-size: 32px;
+  padding: 20px;
+  color:#ff8b38;
+  border:1px solid #ff8b38;
+  border-radius:50%
+}
+/*End features*/
+/*start Pricing*/
+.pricing .table{
+  display: inline-block;
+  width:30%;
+  border-radius:5px;
+  cursor: pointer;
+  margin: 60px 18px; 
+}
+.pricing .table:last-of-type{
+  margin-right:0 
+}
+.pricing .table h4, .pricing .table h2{
+   background:#333;
+   color: #FFF;
+   text-align: center;
+   margin: 0;
+   margin-bottom: 1px;
+   padding: 20px 0
+}
+.pricing .table h2{margin-bottom: 0}
+.pricing .table h2>span{
+  font-size: 72px;
+}
+.pricing .table p{
+  background:#333;
+  color: #b0b0b0;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 20px;
+  font-style: italic
+}
+.pricing .table p+span{
+  display:block;
+  width:100%;
+  text-align: center;
+  color:#FFF;
+  background: #ff8b38;
+  padding: 10px 0;
+  margin-bottom:-30px 
+}
+.pricing .table-list ul{
+  margin: 0;
+  padding-left: 0
+}
+.pricing .table-list li{
+  background:#FFf;
+  color: #b0b0b0;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px 0;
+  border-bottom: 1px solid #EEE
+}
+/*End pricing*/
+/*start contact*/
+.contact form{
+  margin-top: 40px;
+  margin-bottom:60px;
+}
+.contact input{
+  width: 48%;
+  padding: 20px 10px 10px;
+  border:none;
+  border-bottom:1px solid #EEE;
+}
+.contact textarea{
+  display: block;
+  float: right;
+  padding-top: 17px;
+  border:none;
+  border-bottom:1px solid #EEE;
+  width:48%;
+}
+.contact textarea::placeholder, .contact input::placeholder{
+  color: #b0b9b0;
+}
+.contact a{
+  display: block;
+  text-decoration: none;
+  width:140px;
+  background: #ff8b38;
+  border:1px solid #ff8b38;
+  color:#fff;
+  font-size: 14px;
+  font-weight:100;
+  padding:10px 20px;
+  border-radius: 2px;
+  text-align:center;
+  margin: 0 auto 60px;
+}
+/*End contact*/
+/*start footer*/
+.footer{
+  background: #000;
+  color:#ccc;
+  padding-bottom:10px;
+  text-align: center
+}
+
+.footer i{
+  font-size: 26px;
+  padding: 15px 15px 0
+}
+.footer p{
+  color:#808080;
+  margin-bottom: 0;
+  font-size: 12px;
+}
+/*End footer*/
